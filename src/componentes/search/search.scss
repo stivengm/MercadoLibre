@@ -1,0 +1,46 @@
+.content {
+    margin: 1% 20%;
+    .items_search {
+        background-color: #ffffff;
+        border-radius: 3px;
+        padding: 18px;
+        .object_item {
+            .item {
+                display: flex;
+                .img_item {
+                    width: 250px;
+                    border-radius: 4px;
+                }
+                .information_item {
+                    margin: 0 20px;
+                    text-align: left;
+                    width: 100%;
+                    position: relative;
+                    .price_item {
+                        margin: 0;
+                        font-size: 25px;
+                    }
+                    .info {
+                        margin: 0;
+                        text-align: right;
+                        font-size: 14px;
+                        width: 100%;
+                        position: absolute;
+                    }
+                    .description_item {
+                        margin: 0;
+                        width: 60%;
+                    }
+                }
+            }
+            .hr {
+                width: 80%;
+                margin-bottom: 10px;
+                text-align: center;
+                border-bottom: 1px solid #ebebeb;
+                justify-items: center;
+                margin: 15px auto;
+            }
+        }
+    }
+}
